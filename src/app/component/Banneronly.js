@@ -56,7 +56,7 @@ export default function Banneronly() {
               <section>
                 <Image
                   className="w-100 "
-                  src={bannerslide1}
+                  src={bannerslide4}
                   alt="bannerslides"
                 />
               </section>
