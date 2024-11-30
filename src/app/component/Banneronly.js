@@ -11,6 +11,7 @@ import bannerslide2 from "../assets/img/bannerslide-2.png";
 import bannerslide3 from "../assets/img/bannerslide-3.png";
 import bannerslide4 from "../assets/img/bannerslide-4.png";
 import bannerslide5 from "../assets/img/bannerslide-5.png";
+import bannerslide6 from "../assets/img/bannerslide-6.png";
 import Image from "next/image";
 
 export default function Banneronly() {
@@ -65,6 +66,13 @@ export default function Banneronly() {
                 <Image
                   className="w-100 "
                   src={bannerslide5}
+                  alt="bannerslides"
+                />
+              </section>
+              <section>
+                <Image
+                  className="w-100 "
+                  src={bannerslide6}
                   alt="bannerslides"
                 />
               </section>
